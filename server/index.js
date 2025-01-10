@@ -111,7 +111,7 @@ app.get('/api/tips', async (req, res) => {
 
     const total = await TechTip.countDocuments();
 
-    console.log(`Fetched ${tips.length} tech tips`);
+    // console.log(`Fetched ${tips.length} tech tips`);
     res.json({
       tips,
       currentPage: page,
@@ -127,7 +127,7 @@ app.get('/api/tips', async (req, res) => {
 
 app.get('/api/refresh', async (req, res) => {
   try {
-    console.log('Manually refreshing data...');
+    // console.log('Manually refreshing data...');
     await scrapeTechTips();
     await fetchNewsArticles();
     res.json({ message: 'Data refresh completed' });
@@ -141,7 +141,7 @@ app.get('/api/refresh', async (req, res) => {
 async function scrapeTechTips() {
   const url = 'https://dev.to/t/javascript/top/week';
   try {
-    console.log('Starting to scrape tech tips from DEV...');
+    // console.log('Starting to scrape tech tips from DEV...');
     const response = await axios.get(url, {
       headers: { 'User-Agent': 'TechTipsBot/1.0 (https://yourdomain.com)' }
     });
@@ -165,7 +165,7 @@ async function scrapeTechTips() {
           author,
           source: 'DEV Community',
         });
-        console.log(`Scraped URL: ${url}`);
+        // console.log(`Scraped URL: ${url}`);
 
       } else {
         console.error('Missing href for a tech tip, skipping...');
@@ -173,7 +173,7 @@ async function scrapeTechTips() {
       
     });
 
-    console.log(`Scraped ${tips.length} tech tips from DEV`);
+    // console.log(`Scraped ${tips.length} tech tips from DEV`);
 
     // Save scraped tips to the database
     for (let tip of tips) {
@@ -200,11 +200,11 @@ async function scrapeTechTips() {
 // Function to fetch news articles
 async function fetchNewsArticles() {
   try {
-    console.log('Starting to fetch news articles...');
+    // console.log('Starting to fetch news articles...');
     const response = await axios.get(`https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=${process.env.NEWS_API_KEY}`);
     const articles = response.data.articles;
 
-    console.log(`Fetched ${articles.length} news articles from NewsAPI`);
+    // console.log(`Fetched ${articles.length} news articles from NewsAPI`);
 
     for (let article of articles) {
       try {
@@ -226,7 +226,7 @@ async function fetchNewsArticles() {
     }
 
     logger.info(`Fetched and saved ${articles.length} news articles`);
-    console.log(`Fetched and saved ${articles.length} news articles`);
+    // console.log(`Fetched and saved ${articles.length} news articles`);
   } catch (error) {
     logger.error('Error fetching news articles:', error);
     console.error('Error fetching news articles:', error);
@@ -236,7 +236,7 @@ async function fetchNewsArticles() {
 // Schedule scraping and fetching jobs
 cron.schedule('0 */6 * * *', async () => {
   logger.info('Running scheduled scraping and fetching jobs...');
-  console.log('Running scheduled scraping and fetching jobs...');
+  // console.log('Running scheduled scraping and fetching jobs...');
   await scrapeTechTips();
   await fetchNewsArticles();
 });
@@ -256,9 +256,9 @@ connectDB()
     console.error("Failed to connect to the database", err);
   });
 // Initial scrape and fetch on server start
-console.log('Initiating initial scrape and fetch...');
+// console.log('Initiating initial scrape and fetch...');
 scrapeTechTips();
 fetchNewsArticles();
 
-console.log('Server is set up and ready to handle requests!');
+// console.log('Server is set up and ready to handle requests!');
 
