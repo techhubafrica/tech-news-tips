@@ -241,6 +241,10 @@ cron.schedule('0 */6 * * *', async () => {
   await fetchNewsArticles();
 });
 
+app.get("/", (req, res) => {
+  res.send("api working");
+});
+
 // Connect to the database and start the server
 connectDB()
   .then(() => {
