@@ -18,7 +18,7 @@ const NewsList = () => {
   const fetchNews = async (page) => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/news?page=${page}&limit=${itemsPerPage}`);
+      const response = await fetch(`https://tech-news-exf0.onrender.com/api/news?page=${page}&limit=${itemsPerPage}`);
       const data = await response.json();
       setNews(data.articles);
       setTotalPages(data.totalPages);

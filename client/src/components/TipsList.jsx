@@ -18,7 +18,7 @@ const TipsList = () => {
   const fetchTips = async (page) => {
     setLoading(true);
     try {
-      const response = await fetch(`http://localhost:5000/api/tips?page=${page}&limit=${itemsPerPage}`);
+      const response = await fetch(`https://tech-news-exf0.onrender.com/api/tips?page=${page}&limit=${itemsPerPage}`);
       const data = await response.json();
       setTips(data.tips);
       setTotalPages(data.totalPages);
