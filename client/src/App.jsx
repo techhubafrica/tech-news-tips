@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import { ThemeProvider } from './components/ThemeProvider';
 import Header from './components/Header';
 import NewsList from './components/NewsList';
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
-      <Router>
+      <>
         <div className="min-h-screen mt-20 bg-background text-foreground">
           {/* Header Component */}
           <Header />
@@ -51,7 +51,7 @@ function App() {
             </Routes>
           </main>
         </div>
-      </Router>
+      </>
     </ThemeProvider>
   );
 }
