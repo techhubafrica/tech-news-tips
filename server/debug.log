@@ -1,0 +1,421 @@
+2025-01-12T09:48:30.758Z [info]: Starting tech tips scraping process
+2025-01-12T09:48:30.761Z [info]: Processing category: ghana
+2025-01-12T09:48:30.764Z [debug]: Fetching content from: https://dev.to/t/ghana
+2025-01-12T09:48:30.765Z [info]: Starting news articles fetch process
+2025-01-12T09:48:30.765Z [debug]: Fetching news for category: ghana
+2025-01-12T09:48:30.766Z [info]: Server started successfully on port 5000
+2025-01-12T09:48:33.160Z [info]: Received 100 articles for ghana
+2025-01-12T09:48:33.420Z [debug]: Successfully saved article {"id":"67838ff12332d43c7a607fcc"}
+2025-01-12T09:48:33.594Z [debug]: Successfully saved article {"id":"67838ff12332d43c7a607fcc"}
+2025-01-12T09:48:33.826Z [debug]: Successfully saved article {"id":"67838ff22332d43c7a607fcd"}
+2025-01-12T09:48:34.030Z [debug]: Successfully saved article {"id":"67838ff22332d43c7a607fce"}
+2025-01-12T09:48:34.090Z [info]: Found 1 articles on https://dev.to/t/ghana
+2025-01-12T09:48:34.093Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:34.093Z [debug]: Fetching content from: https://dev.to/search?q=ghana+tech
+2025-01-12T09:48:34.173Z [debug]: Successfully saved article {"id":"67838ff22332d43c7a607fcf"}
+2025-01-12T09:48:34.440Z [debug]: Successfully saved article {"id":"67838ff22332d43c7a607fd0"}
+2025-01-12T09:48:34.645Z [debug]: Successfully saved article {"id":"67838ff32332d43c7a607fd1"}
+2025-01-12T09:48:34.877Z [debug]: Successfully saved article {"id":"67838ff32332d43c7a607fd2"}
+2025-01-12T09:48:35.054Z [debug]: Successfully saved article {"id":"67838ff32332d43c7a607fd3"}
+2025-01-12T09:48:35.203Z [debug]: Successfully saved article {"id":"67838ff32332d43c7a607fd4"}
+2025-01-12T09:48:35.390Z [debug]: Successfully saved article {"id":"67838ff32332d43c7a607fd5"}
+2025-01-12T09:48:35.545Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fd6"}
+2025-01-12T09:48:35.703Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fd7"}
+2025-01-12T09:48:35.874Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fd8"}
+2025-01-12T09:48:36.106Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fd9"}
+2025-01-12T09:48:36.276Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fda"}
+2025-01-12T09:48:36.440Z [debug]: Successfully saved article {"id":"67838ff42332d43c7a607fdb"}
+2025-01-12T09:48:36.597Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fdc"}
+2025-01-12T09:48:36.707Z [info]: Found 1 articles on https://dev.to/search?q=ghana+tech
+2025-01-12T09:48:36.708Z [warn]: Skipping article due to missing required fields {"title":false,"content":false,"author":false,"url":false}
+2025-01-12T09:48:36.708Z [info]: Processing category: africa
+2025-01-12T09:48:36.708Z [debug]: Fetching content from: https://dev.to/t/africa
+2025-01-12T09:48:36.749Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fdd"}
+2025-01-12T09:48:36.897Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fde"}
+2025-01-12T09:48:37.102Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fdf"}
+2025-01-12T09:48:37.273Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fe0"}
+2025-01-12T09:48:37.426Z [debug]: Successfully saved article {"id":"67838ff52332d43c7a607fe1"}
+2025-01-12T09:48:37.698Z [debug]: Successfully saved article {"id":"67838ff62332d43c7a607fe2"}
+2025-01-12T09:48:37.851Z [debug]: Successfully saved article {"id":"67838ff62332d43c7a607fe3"}
+2025-01-12T09:48:38.005Z [debug]: Successfully saved article {"id":"67838ff62332d43c7a607fe4"}
+2025-01-12T09:48:38.164Z [debug]: Successfully saved article {"id":"67838ff62332d43c7a607fe5"}
+2025-01-12T09:48:38.324Z [debug]: Successfully saved article {"id":"67838ff62332d43c7a607fe6"}
+2025-01-12T09:48:38.535Z [debug]: Successfully saved article {"id":"67838ff72332d43c7a607fe7"}
+2025-01-12T09:48:38.716Z [debug]: Successfully saved article {"id":"67838ff72332d43c7a607fe8"}
+2025-01-12T09:48:38.945Z [debug]: Successfully saved article {"id":"67838ff72332d43c7a607fe9"}
+2025-01-12T09:48:39.318Z [debug]: Successfully saved article {"id":"67838ff72332d43c7a607fea"}
+2025-01-12T09:48:39.545Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607feb"}
+2025-01-12T09:48:39.646Z [info]: Found 15 articles on https://dev.to/t/africa
+2025-01-12T09:48:39.647Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.648Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.648Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.649Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.649Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.649Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.650Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.650Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.650Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.651Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.651Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.657Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.658Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.659Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.659Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:39.659Z [debug]: Fetching content from: https://dev.to/search?q=africa+tech
+2025-01-12T09:48:39.701Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607fec"}
+2025-01-12T09:48:39.868Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607fed"}
+2025-01-12T09:48:40.137Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607fee"}
+2025-01-12T09:48:40.292Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:40.577Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607fef"}
+2025-01-12T09:48:40.787Z [debug]: Successfully saved article {"id":"67838ff92332d43c7a607ff0"}
+2025-01-12T09:48:40.993Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:41.197Z [debug]: Successfully saved article {"id":"67838ff92332d43c7a607ff1"}
+2025-01-12T09:48:41.401Z [debug]: Successfully saved article {"id":"67838ff92332d43c7a607ff2"}
+2025-01-12T09:48:41.606Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff3"}
+2025-01-12T09:48:41.768Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff4"}
+2025-01-12T09:48:41.918Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff5"}
+2025-01-12T09:48:42.078Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff6"}
+2025-01-12T09:48:42.283Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff7"}
+2025-01-12T09:48:42.296Z [info]: Found 1 articles on https://dev.to/search?q=africa+tech
+2025-01-12T09:48:42.297Z [warn]: Skipping article due to missing required fields {"title":false,"content":false,"author":false,"url":false}
+2025-01-12T09:48:42.297Z [info]: Processing category: world
+2025-01-12T09:48:42.297Z [debug]: Fetching content from: https://dev.to/t/javascript/top/week
+2025-01-12T09:48:42.631Z [debug]: Successfully saved article {"id":"67838ffa2332d43c7a607ff8"}
+2025-01-12T09:48:42.836Z [debug]: Successfully saved article {"id":"67838ffb2332d43c7a607ff9"}
+2025-01-12T09:48:43.041Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:43.190Z [debug]: Successfully saved article {"id":"67838ffb2332d43c7a607ffa"}
+2025-01-12T09:48:43.347Z [debug]: Successfully saved article {"id":"67838ffb2332d43c7a607ffb"}
+2025-01-12T09:48:43.501Z [debug]: Successfully saved article {"id":"67838ffc2332d43c7a607ffc"}
+2025-01-12T09:48:43.834Z [debug]: Successfully saved article {"id":"67838ffc2332d43c7a607ffd"}
+2025-01-12T09:48:44.065Z [debug]: Successfully saved article {"id":"67838ffc2332d43c7a607ffe"}
+2025-01-12T09:48:44.269Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:44.482Z [debug]: Successfully saved article {"id":"67838ffc2332d43c7a607fff"}
+2025-01-12T09:48:44.644Z [debug]: Successfully saved article {"id":"67838ffd2332d43c7a608000"}
+2025-01-12T09:48:44.884Z [debug]: Successfully saved article {"id":"67838ffd2332d43c7a608001"}
+2025-01-12T09:48:45.087Z [debug]: Successfully saved article {"id":"67838ffd2332d43c7a608002"}
+2025-01-12T09:48:45.293Z [debug]: Successfully saved article {"id":"67838ffd2332d43c7a608003"}
+2025-01-12T09:48:45.498Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:45.671Z [debug]: Successfully saved article {"id":"67838ffe2332d43c7a608004"}
+2025-01-12T09:48:45.908Z [debug]: Successfully saved article {"id":"67838ffe2332d43c7a608005"}
+2025-01-12T09:48:46.061Z [debug]: Successfully saved article {"id":"67838ffe2332d43c7a608006"}
+2025-01-12T09:48:46.290Z [info]: Found 60 articles on https://dev.to/t/javascript/top/week
+2025-01-12T09:48:46.290Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.291Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.291Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.292Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.292Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.292Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.293Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.293Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.294Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.294Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.295Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.296Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.297Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.297Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.297Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.298Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.299Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.301Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.301Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.302Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.302Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.302Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.303Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.304Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.306Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.306Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.307Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.308Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.310Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.310Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.311Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.311Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.312Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.312Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.312Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.313Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.313Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.313Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.314Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.314Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.314Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.315Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.315Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.315Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.315Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.316Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.316Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.317Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.317Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.318Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.319Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.321Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.322Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.322Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.323Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.326Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.327Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.327Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.327Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.328Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:46.328Z [debug]: Fetching content from: https://dev.to/t/technology/top/week
+2025-01-12T09:48:46.330Z [debug]: Successfully saved article {"id":"67838ffe2332d43c7a608007"}
+2025-01-12T09:48:46.523Z [debug]: Successfully saved article {"id":"67838fff2332d43c7a608008"}
+2025-01-12T09:48:46.726Z [debug]: Successfully saved article {"id":"67838ff82332d43c7a607fed"}
+2025-01-12T09:48:46.932Z [debug]: Successfully saved article {"id":"67838fff2332d43c7a608009"}
+2025-01-12T09:48:47.136Z [debug]: Successfully saved article {"id":"67838fff2332d43c7a60800a"}
+2025-01-12T09:48:47.299Z [debug]: Successfully saved article {"id":"67838fff2332d43c7a60800b"}
+2025-01-12T09:48:47.436Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:47.775Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:47.954Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:48.160Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ec1"}
+2025-01-12T09:48:48.332Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:48.482Z [debug]: Successfully saved article {"id":"67838ad52332d43c7a607ec4"}
+2025-01-12T09:48:48.773Z [debug]: Successfully saved article {"id":"67838ad52332d43c7a607ec6"}
+2025-01-12T09:48:49.183Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:49.210Z [info]: Found 18 articles on https://dev.to/t/technology/top/week
+2025-01-12T09:48:49.210Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.211Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.211Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.211Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.212Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.212Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.212Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.216Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.216Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.216Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.217Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.217Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.217Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.219Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.219Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.219Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.220Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.220Z [warn]: Skipping article due to missing required fields {"title":true,"content":false,"author":false,"url":true}
+2025-01-12T09:48:49.388Z [debug]: Successfully saved article {"id":"67838ad52332d43c7a607ec9"}
+2025-01-12T09:48:49.592Z [debug]: Successfully saved article {"id":"67838ad52332d43c7a607ecb"}
+2025-01-12T09:48:49.740Z [debug]: Successfully saved article {"id":"67838ad62332d43c7a607ecd"}
+2025-01-12T09:48:49.883Z [debug]: Successfully saved article {"id":"67838ad62332d43c7a607ecf"}
+2025-01-12T09:48:50.190Z [debug]: Successfully saved article {"id":"67838ad62332d43c7a607ed1"}
+2025-01-12T09:48:50.337Z [debug]: Successfully saved article {"id":"67838ad62332d43c7a607ed2"}
+2025-01-12T09:48:50.500Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:50.794Z [debug]: Successfully saved article {"id":"67838ad72332d43c7a607ed6"}
+2025-01-12T09:48:51.000Z [debug]: Successfully saved article {"id":"67838ad72332d43c7a607ed8"}
+2025-01-12T09:48:51.231Z [debug]: Successfully saved article {"id":"67838ad72332d43c7a607eda"}
+2025-01-12T09:48:51.388Z [debug]: Successfully saved article {"id":"67838ad72332d43c7a607edc"}
+2025-01-12T09:48:51.846Z [debug]: Successfully saved article {"id":"67838ad72332d43c7a607ede"}
+2025-01-12T09:48:52.057Z [debug]: Successfully saved article {"id":"67838ad82332d43c7a607ee0"}
+2025-01-12T09:48:52.226Z [debug]: Successfully saved article {"id":"67838ad82332d43c7a607ee2"}
+2025-01-12T09:48:52.379Z [debug]: Successfully saved article {"id":"67838ad82332d43c7a607ee4"}
+2025-01-12T09:48:52.524Z [debug]: Successfully saved article {"id":"67838ad82332d43c7a607ee6"}
+2025-01-12T09:48:52.683Z [debug]: Successfully saved article {"id":"67838ad82332d43c7a607ee8"}
+2025-01-12T09:48:52.834Z [debug]: Successfully saved article {"id":"67838ad92332d43c7a607ee9"}
+2025-01-12T09:48:53.008Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:53.286Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:53.432Z [debug]: Successfully saved article {"id":"67838ad42332d43c7a607ebd"}
+2025-01-12T09:48:53.433Z [debug]: Fetching news for category: africa
+2025-01-12T09:48:55.842Z [info]: Received 100 articles for africa
+2025-01-12T09:48:56.153Z [debug]: Successfully saved article {"id":"678390082332d43c7a60800c"}
+2025-01-12T09:48:56.352Z [debug]: Successfully saved article {"id":"67838adb2332d43c7a607eef"}
+2025-01-12T09:48:56.555Z [debug]: Successfully saved article {"id":"67838adb2332d43c7a607ef1"}
+2025-01-12T09:48:56.781Z [debug]: Successfully saved article {"id":"67838adb2332d43c7a607ef3"}
+2025-01-12T09:48:56.924Z [debug]: Successfully saved article {"id":"67838adb2332d43c7a607ef5"}
+2025-01-12T09:48:57.080Z [debug]: Successfully saved article {"id":"67838adc2332d43c7a607ef7"}
+2025-01-12T09:48:57.379Z [debug]: Successfully saved article {"id":"67838adc2332d43c7a607ef9"}
+2025-01-12T09:48:57.579Z [debug]: Successfully saved article {"id":"67838adc2332d43c7a607efb"}
+2025-01-12T09:48:57.784Z [debug]: Successfully saved article {"id":"67838adc2332d43c7a607efd"}
+2025-01-12T09:48:57.981Z [debug]: Successfully saved article {"id":"67838add2332d43c7a607efe"}
+2025-01-12T09:48:58.196Z [debug]: Successfully saved article {"id":"67838add2332d43c7a607f01"}
+2025-01-12T09:48:58.400Z [debug]: Successfully saved article {"id":"67838add2332d43c7a607f05"}
+2025-01-12T09:48:58.605Z [debug]: Successfully saved article {"id":"67838add2332d43c7a607f03"}
+2025-01-12T09:48:58.809Z [debug]: Successfully saved article {"id":"67838add2332d43c7a607f07"}
+2025-01-12T09:48:59.015Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f09"}
+2025-01-12T09:48:59.199Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f0a"}
+2025-01-12T09:48:59.433Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f0b"}
+2025-01-12T09:48:59.628Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f0c"}
+2025-01-12T09:48:59.834Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f0d"}
+2025-01-12T09:49:00.033Z [debug]: Successfully saved article {"id":"67838ade2332d43c7a607f0e"}
+2025-01-12T09:49:00.243Z [debug]: Successfully saved article {"id":"67838adf2332d43c7a607f0f"}
+2025-01-12T09:49:00.556Z [debug]: Successfully saved article {"id":"67838adf2332d43c7a607f10"}
+2025-01-12T09:49:00.843Z [debug]: Successfully saved article {"id":"67838adf2332d43c7a607f11"}
+2025-01-12T09:49:01.008Z [debug]: Successfully saved article {"id":"67838adf2332d43c7a607f12"}
+2025-01-12T09:49:01.238Z [debug]: Successfully saved article {"id":"67838adf2332d43c7a607f13"}
+2025-01-12T09:49:01.475Z [debug]: Successfully saved article {"id":"67838ae02332d43c7a607f14"}
+2025-01-12T09:49:01.676Z [debug]: Successfully saved article {"id":"67838ae02332d43c7a607f15"}
+2025-01-12T09:49:01.882Z [debug]: Successfully saved article {"id":"67838ae02332d43c7a607f16"}
+2025-01-12T09:49:02.087Z [debug]: Successfully saved article {"id":"67838ae02332d43c7a607f17"}
+2025-01-12T09:49:02.291Z [debug]: Successfully saved article {"id":"67838ae02332d43c7a607f17"}
+2025-01-12T09:49:02.496Z [debug]: Successfully saved article {"id":"67838ae12332d43c7a607f18"}
+2025-01-12T09:49:02.699Z [debug]: Successfully saved article {"id":"67838ae12332d43c7a607f19"}
+2025-01-12T09:49:02.919Z [debug]: Successfully saved article {"id":"67838ae12332d43c7a607f1a"}
+2025-01-12T09:49:03.113Z [debug]: Successfully saved article {"id":"67838ae12332d43c7a607f1b"}
+2025-01-12T09:49:03.314Z [debug]: Successfully saved article {"id":"67838ae12332d43c7a607f1c"}
+2025-01-12T09:49:03.477Z [debug]: Successfully saved article {"id":"67838ae22332d43c7a607f1d"}
+2025-01-12T09:49:03.625Z [debug]: Successfully saved article {"id":"67838ae22332d43c7a607f1e"}
+2025-01-12T09:49:03.929Z [debug]: Successfully saved article {"id":"67838ae22332d43c7a607f1f"}
+2025-01-12T09:49:04.082Z [debug]: Successfully saved article {"id":"67838ae22332d43c7a607f20"}
+2025-01-12T09:49:04.310Z [debug]: Successfully saved article {"id":"67838ae32332d43c7a607f21"}
+2025-01-12T09:49:04.545Z [debug]: Successfully saved article {"id":"67838ae32332d43c7a607f22"}
+2025-01-12T09:49:04.749Z [debug]: Successfully saved article {"id":"67838ae32332d43c7a607f23"}
+2025-01-12T09:49:04.951Z [debug]: Successfully saved article {"id":"67838ae32332d43c7a607f24"}
+2025-01-12T09:49:05.178Z [debug]: Successfully saved article {"id":"67838ae42332d43c7a607f25"}
+2025-01-12T09:49:05.363Z [debug]: Successfully saved article {"id":"67838ae42332d43c7a607f26"}
+2025-01-12T09:49:05.568Z [debug]: Successfully saved article {"id":"67838ae42332d43c7a607f27"}
+2025-01-12T09:49:05.784Z [debug]: Successfully saved article {"id":"67838ae42332d43c7a607f28"}
+2025-01-12T09:49:05.941Z [debug]: Successfully saved article {"id":"67838ae42332d43c7a607f29"}
+2025-01-12T09:49:06.089Z [debug]: Successfully saved article {"id":"67838ae52332d43c7a607f2a"}
+2025-01-12T09:49:06.249Z [debug]: Successfully saved article {"id":"67838ae52332d43c7a607f2c"}
+2025-01-12T09:49:06.591Z [debug]: Successfully saved article {"id":"67838ae52332d43c7a607f2d"}
+2025-01-12T09:49:06.796Z [debug]: Successfully saved article {"id":"67838ae52332d43c7a607f2b"}
+2025-01-12T09:49:07.000Z [debug]: Successfully saved article {"id":"67838ae62332d43c7a607f2e"}
+2025-01-12T09:49:07.207Z [debug]: Successfully saved article {"id":"67838ae62332d43c7a607f32"}
+2025-01-12T09:49:07.409Z [debug]: Successfully saved article {"id":"67838ae62332d43c7a607f30"}
+2025-01-12T09:49:07.614Z [debug]: Successfully saved article {"id":"67838ae62332d43c7a607f31"}
+2025-01-12T09:49:07.820Z [debug]: Successfully saved article {"id":"67838ae62332d43c7a607f2f"}
+2025-01-12T09:49:08.234Z [debug]: Successfully saved article {"id":"67838ae72332d43c7a607f33"}
+2025-01-12T09:49:08.394Z [debug]: Successfully saved article {"id":"67838ae72332d43c7a607f34"}
+2025-01-12T09:49:08.640Z [debug]: Successfully saved article {"id":"67838ae72332d43c7a607f35"}
+2025-01-12T09:49:08.845Z [debug]: Successfully saved article {"id":"67838ae72332d43c7a607f36"}
+2025-01-12T09:49:09.048Z [debug]: Successfully saved article {"id":"67838ae82332d43c7a607f37"}
+2025-01-12T09:49:09.254Z [debug]: Successfully saved article {"id":"67838ae82332d43c7a607f38"}
+2025-01-12T09:49:09.460Z [debug]: Successfully saved article {"id":"67838ae82332d43c7a607f39"}
+2025-01-12T09:49:09.684Z [debug]: Successfully saved article {"id":"67838ae82332d43c7a607f3a"}
+2025-01-12T09:49:09.869Z [debug]: Successfully saved article {"id":"67838ae82332d43c7a607f3b"}
+2025-01-12T09:49:10.074Z [debug]: Successfully saved article {"id":"67838ae92332d43c7a607f3c"}
+2025-01-12T09:49:10.284Z [debug]: Successfully saved article {"id":"67838ae92332d43c7a607f3d"}
+2025-01-12T09:49:10.499Z [debug]: Successfully saved article {"id":"67838ae92332d43c7a607f3e"}
+2025-01-12T09:49:10.679Z [debug]: Successfully saved article {"id":"67838ae92332d43c7a607f3f"}
+2025-01-12T09:49:10.842Z [debug]: Successfully saved article {"id":"67838ae92332d43c7a607f40"}
+2025-01-12T09:49:10.988Z [debug]: Successfully saved article {"id":"67838aea2332d43c7a607f41"}
+2025-01-12T09:49:11.152Z [debug]: Successfully saved article {"id":"67838aea2332d43c7a607f42"}
+2025-01-12T09:49:11.482Z [debug]: Successfully saved article {"id":"67838aea2332d43c7a607f43"}
+2025-01-12T09:49:11.627Z [debug]: Successfully saved article {"id":"67838aea2332d43c7a607f44"}
+2025-01-12T09:49:11.784Z [debug]: Successfully saved article {"id":"67838aea2332d43c7a607f45"}
+2025-01-12T09:49:12.121Z [debug]: Successfully saved article {"id":"67838aeb2332d43c7a607f46"}
+2025-01-12T09:49:12.325Z [debug]: Successfully saved article {"id":"67838aeb2332d43c7a607f47"}
+2025-01-12T09:49:12.530Z [debug]: Successfully saved article {"id":"67838aeb2332d43c7a607f48"}
+2025-01-12T09:49:12.734Z [debug]: Successfully saved article {"id":"67838aeb2332d43c7a607f49"}
+2025-01-12T09:49:12.941Z [debug]: Successfully saved article {"id":"67838aeb2332d43c7a607f4a"}
+2025-01-12T09:49:13.117Z [debug]: Successfully saved article {"id":"67838aec2332d43c7a607f4b"}
+2025-01-12T09:49:13.353Z [debug]: Successfully saved article {"id":"67838aec2332d43c7a607f4c"}
+2025-01-12T09:49:13.584Z [debug]: Successfully saved article {"id":"67838aec2332d43c7a607f4d"}
+2025-01-12T09:49:13.759Z [debug]: Successfully saved article {"id":"67838aec2332d43c7a607f4e"}
+2025-01-12T09:49:13.965Z [debug]: Successfully saved article {"id":"67838aed2332d43c7a607f4f"}
+2025-01-12T09:49:14.190Z [debug]: Successfully saved article {"id":"67838aed2332d43c7a607f50"}
+2025-01-12T09:49:14.373Z [debug]: Successfully saved article {"id":"67838aed2332d43c7a607f51"}
+2025-01-12T09:49:14.550Z [debug]: Successfully saved article {"id":"67838aed2332d43c7a607f52"}
+2025-01-12T09:49:14.702Z [debug]: Successfully saved article {"id":"67838aee2332d43c7a607f53"}
+2025-01-12T09:49:14.986Z [debug]: Successfully saved article {"id":"67838aee2332d43c7a607f54"}
+2025-01-12T09:49:15.193Z [debug]: Successfully saved article {"id":"67838aee2332d43c7a607f55"}
+2025-01-12T09:49:15.398Z [debug]: Successfully saved article {"id":"67838aee2332d43c7a607f56"}
+2025-01-12T09:49:15.608Z [debug]: Successfully saved article {"id":"67838aef2332d43c7a607f57"}
+2025-01-12T09:49:15.807Z [debug]: Successfully saved article {"id":"67838aef2332d43c7a607f58"}
+2025-01-12T09:49:15.957Z [debug]: Successfully saved article {"id":"67838aef2332d43c7a607f59"}
+2025-01-12T09:49:16.113Z [debug]: Successfully saved article {"id":"67838aef2332d43c7a607f5a"}
+2025-01-12T09:49:16.422Z [debug]: Successfully saved article {"id":"67838aef2332d43c7a607f5b"}
+2025-01-12T09:49:16.579Z [debug]: Successfully saved article {"id":"67838af02332d43c7a607f5c"}
+2025-01-12T09:49:16.842Z [debug]: Successfully saved article {"id":"67838af02332d43c7a607f5d"}
+2025-01-12T09:49:16.842Z [debug]: Fetching news for category: world
+2025-01-12T09:49:18.914Z [info]: Received 100 articles for world
+2025-01-12T09:49:19.073Z [debug]: Successfully saved article {"id":"6783901f2332d43c7a60800d"}
+2025-01-12T09:49:19.220Z [debug]: Successfully saved article {"id":"6783901f2332d43c7a60800e"}
+2025-01-12T09:49:19.493Z [debug]: Successfully saved article {"id":"6783901f2332d43c7a60800f"}
+2025-01-12T09:49:19.698Z [debug]: Successfully saved article {"id":"678390202332d43c7a608010"}
+2025-01-12T09:49:19.880Z [debug]: Successfully saved article {"id":"678390202332d43c7a608011"}
+2025-01-12T09:49:20.107Z [debug]: Successfully saved article {"id":"678390202332d43c7a608012"}
+2025-01-12T09:49:20.314Z [debug]: Successfully saved article {"id":"678390202332d43c7a608013"}
+2025-01-12T09:49:20.519Z [debug]: Successfully saved article {"id":"678390202332d43c7a608014"}
+2025-01-12T09:49:20.928Z [debug]: Successfully saved article {"id":"678390212332d43c7a608015"}
+2025-01-12T09:49:21.111Z [debug]: Successfully saved article {"id":"678390212332d43c7a608016"}
+2025-01-12T09:49:21.312Z [debug]: Successfully saved article {"id":"678390212332d43c7a608017"}
+2025-01-12T09:49:21.491Z [debug]: Successfully saved article {"id":"678390212332d43c7a608018"}
+2025-01-12T09:49:21.661Z [debug]: Successfully saved article {"id":"678390222332d43c7a608019"}
+2025-01-12T09:49:21.804Z [debug]: Successfully saved article {"id":"678390222332d43c7a60801a"}
+2025-01-12T09:49:22.020Z [debug]: Successfully saved article {"id":"678390222332d43c7a60801b"}
+2025-01-12T09:49:22.316Z [debug]: Successfully saved article {"id":"678390222332d43c7a60801c"}
+2025-01-12T09:49:22.579Z [debug]: Successfully saved article {"id":"678390232332d43c7a60801d"}
+2025-01-12T09:49:22.984Z [debug]: Successfully saved article {"id":"678390232332d43c7a60801e"}
+2025-01-12T09:49:23.180Z [debug]: Successfully saved article {"id":"678390232332d43c7a60801f"}
+2025-01-12T09:49:23.383Z [debug]: Successfully saved article {"id":"678390232332d43c7a608020"}
+2025-01-12T09:49:23.583Z [debug]: Successfully saved article {"id":"678390242332d43c7a608022"}
+2025-01-12T09:49:23.782Z [debug]: Successfully saved article {"id":"678390242332d43c7a608023"}
+2025-01-12T09:49:23.998Z [debug]: Successfully saved article {"id":"678390242332d43c7a608024"}
+2025-01-12T09:49:24.153Z [debug]: Successfully saved article {"id":"678390242332d43c7a608025"}
+2025-01-12T09:49:24.409Z [debug]: Successfully saved article {"id":"678390242332d43c7a608026"}
+2025-01-12T09:49:24.612Z [debug]: Successfully saved article {"id":"678390252332d43c7a608027"}
+2025-01-12T09:49:24.777Z [debug]: Successfully saved article {"id":"678390252332d43c7a608028"}
+2025-01-12T09:49:24.937Z [debug]: Successfully saved article {"id":"678390252332d43c7a608029"}
+2025-01-12T09:49:25.228Z [debug]: Successfully saved article {"id":"67838af12332d43c7a607f5f"}
+2025-01-12T09:49:25.433Z [debug]: Successfully saved article {"id":"67838af22332d43c7a607f60"}
+2025-01-12T09:49:25.876Z [debug]: Successfully saved article {"id":"67838af22332d43c7a607f61"}
+2025-01-12T09:49:26.050Z [debug]: Successfully saved article {"id":"67838af22332d43c7a607f62"}
+2025-01-12T09:49:26.252Z [debug]: Successfully saved article {"id":"67838af22332d43c7a607f63"}
+2025-01-12T09:49:26.477Z [debug]: Successfully saved article {"id":"67838af22332d43c7a607f64"}
+2025-01-12T09:49:26.644Z [debug]: Successfully saved article {"id":"67838af32332d43c7a607f65"}
+2025-01-12T09:49:26.865Z [debug]: Successfully saved article {"id":"67838af32332d43c7a607f66"}
+2025-01-12T09:49:27.083Z [debug]: Successfully saved article {"id":"67838af32332d43c7a607f67"}
+2025-01-12T09:49:27.275Z [debug]: Successfully saved article {"id":"67838af32332d43c7a607f68"}
+2025-01-12T09:49:27.480Z [debug]: Successfully saved article {"id":"67838af42332d43c7a607f69"}
+2025-01-12T09:49:27.685Z [debug]: Successfully saved article {"id":"67838af42332d43c7a607f6a"}
+2025-01-12T09:49:27.890Z [debug]: Successfully saved article {"id":"67838af42332d43c7a607f6b"}
+2025-01-12T09:49:28.095Z [debug]: Successfully saved article {"id":"67838af42332d43c7a607f6c"}
+2025-01-12T09:49:28.300Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f6d"}
+2025-01-12T09:49:28.505Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f6e"}
+2025-01-12T09:49:28.708Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f6f"}
+2025-01-12T09:49:28.871Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f70"}
+2025-01-12T09:49:29.119Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f71"}
+2025-01-12T09:49:29.265Z [debug]: Successfully saved article {"id":"67838af52332d43c7a607f72"}
+2025-01-12T09:49:29.529Z [debug]: Successfully saved article {"id":"67838af62332d43c7a607f73"}
+2025-01-12T09:49:29.733Z [debug]: Successfully saved article {"id":"67838af62332d43c7a607f74"}
+2025-01-12T09:49:29.888Z [debug]: Successfully saved article {"id":"67838af62332d43c7a607f75"}
+2025-01-12T09:49:30.143Z [debug]: Successfully saved article {"id":"67838af62332d43c7a607f76"}
+2025-01-12T09:49:30.375Z [debug]: Successfully saved article {"id":"67838af72332d43c7a607f77"}
+2025-01-12T09:49:30.523Z [debug]: Successfully saved article {"id":"67838af72332d43c7a607f78"}
+2025-01-12T09:49:30.758Z [debug]: Successfully saved article {"id":"67838af72332d43c7a607f79"}
+2025-01-12T09:49:30.975Z [debug]: Successfully saved article {"id":"67838af72332d43c7a607f7a"}
+2025-01-12T09:49:31.370Z [debug]: Successfully saved article {"id":"67838af82332d43c7a607f7b"}
+2025-01-12T09:49:31.595Z [debug]: Successfully saved article {"id":"67838af82332d43c7a607f7c"}
+2025-01-12T09:49:31.746Z [debug]: Successfully saved article {"id":"67838af82332d43c7a607f7d"}
+2025-01-12T09:49:31.892Z [debug]: Successfully saved article {"id":"67838af82332d43c7a607f7e"}
+2025-01-12T09:49:32.194Z [debug]: Successfully saved article {"id":"67838af92332d43c7a607f7f"}
+2025-01-12T09:49:32.342Z [debug]: Successfully saved article {"id":"67838af92332d43c7a607f80"}
+2025-01-12T09:49:32.599Z [debug]: Successfully saved article {"id":"67838af92332d43c7a607f81"}
+2025-01-12T09:49:32.743Z [debug]: Successfully saved article {"id":"67838af92332d43c7a607f82"}
+2025-01-12T09:49:33.010Z [debug]: Successfully saved article {"id":"67838af92332d43c7a607f83"}
+2025-01-12T09:49:33.213Z [debug]: Successfully saved article {"id":"67838afa2332d43c7a607f84"}
+2025-01-12T09:49:33.420Z [debug]: Successfully saved article {"id":"67838afa2332d43c7a607f85"}
+2025-01-12T09:49:33.623Z [debug]: Successfully saved article {"id":"67838afa2332d43c7a607f86"}
+2025-01-12T09:49:33.827Z [debug]: Successfully saved article {"id":"67838afa2332d43c7a607f87"}
+2025-01-12T09:49:34.002Z [debug]: Successfully saved article {"id":"67838afa2332d43c7a607f88"}
+2025-01-12T09:49:34.241Z [debug]: Successfully saved article {"id":"67838afb2332d43c7a607f89"}
+2025-01-12T09:49:34.444Z [debug]: Successfully saved article {"id":"67838afb2332d43c7a607f8a"}
+2025-01-12T09:49:34.649Z [debug]: Successfully saved article {"id":"67838afb2332d43c7a607f8b"}
+2025-01-12T09:49:34.874Z [debug]: Successfully saved article {"id":"67838afb2332d43c7a607f8c"}
+2025-01-12T09:49:35.074Z [debug]: Successfully saved article {"id":"67838afc2332d43c7a607f8e"}
+2025-01-12T09:49:35.248Z [debug]: Successfully saved article {"id":"67838afb2332d43c7a607f8d"}
+2025-01-12T09:49:35.431Z [debug]: Successfully saved article {"id":"67838afc2332d43c7a607f8f"}
+2025-01-12T09:49:35.673Z [debug]: Successfully saved article {"id":"67838afc2332d43c7a607f90"}
+2025-01-12T09:49:35.878Z [debug]: Successfully saved article {"id":"67838afc2332d43c7a607f91"}
+2025-01-12T09:49:36.027Z [debug]: Successfully saved article {"id":"67838afc2332d43c7a607f92"}
+2025-01-12T09:49:36.173Z [debug]: Successfully saved article {"id":"67838afd2332d43c7a607f93"}
+2025-01-12T09:49:36.491Z [debug]: Successfully saved article {"id":"67838afd2332d43c7a607f94"}
+2025-01-12T09:49:36.634Z [debug]: Successfully saved article {"id":"67838afd2332d43c7a607f95"}
+2025-01-12T09:49:36.786Z [debug]: Successfully saved article {"id":"67838afd2332d43c7a607f96"}
+2025-01-12T09:49:37.106Z [debug]: Successfully saved article {"id":"67838afd2332d43c7a607f97"}
+2025-01-12T09:49:37.310Z [debug]: Successfully saved article {"id":"67838afe2332d43c7a607f98"}
+2025-01-12T09:49:37.469Z [debug]: Successfully saved article {"id":"67838afe2332d43c7a607f99"}
+2025-01-12T09:49:37.722Z [debug]: Successfully saved article {"id":"67838afe2332d43c7a607f9a"}
+2025-01-12T09:49:37.880Z [debug]: Successfully saved article {"id":"67838afe2332d43c7a607f9b"}
+2025-01-12T09:49:38.032Z [debug]: Successfully saved article {"id":"67838afe2332d43c7a607f9c"}
+2025-01-12T09:49:38.282Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607f9d"}
+2025-01-12T09:49:38.423Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607f9e"}
+2025-01-12T09:49:38.562Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607f9f"}
+2025-01-12T09:49:38.775Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607fa0"}
+2025-01-12T09:49:38.928Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607fa1"}
+2025-01-12T09:49:39.075Z [debug]: Successfully saved article {"id":"67838aff2332d43c7a607fa2"}
+2025-01-12T09:49:39.230Z [debug]: Successfully saved article {"id":"67838b002332d43c7a607fa3"}
+2025-01-12T09:49:39.564Z [debug]: Successfully saved article {"id":"67838b002332d43c7a607fa4"}
+2025-01-12T09:49:39.769Z [debug]: Successfully saved article {"id":"67838b002332d43c7a607fa6"}
+2025-01-12T09:49:39.912Z [debug]: Successfully saved article {"id":"67838b002332d43c7a607fa5"}
+2025-01-12T09:49:39.912Z [info]: Initial data fetch completed

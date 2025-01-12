@@ -7,11 +7,11 @@ const Header = () => {
   const { theme, setTheme } = useTheme();
 
   return (
-    <header className="fixed top-0 left-0 right-0 border-b bg-white dark:bg-slate-900 shadow-md z-50 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90">
-      <div className="container mx-auto py-4 px-6">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white border-b shadow-md dark:bg-slate-900 backdrop-blur-sm bg-opacity-90 dark:bg-opacity-90">
+      <div className="container px-6 py-4 mx-auto">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <h1 className="text-2xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-transparent bg-gradient-to-r from-emerald-600 to-teal-600 dark:from-emerald-400 dark:to-teal-400 bg-clip-text">
               <Link to={"/"}>
               Tech News & Tips
               </Link>
@@ -19,8 +19,8 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <nav className="hidden md:flex items-center gap-6 mr-4">
-              <a href="/about" className="text-gray-600 dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors">
+            <nav className="items-center hidden gap-6 mr-4 md:flex">
+              <a href="/about" className="text-gray-600 transition-colors dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400">
                 About
               </a>
             </nav>
@@ -29,12 +29,12 @@ const Header = () => {
               variant="outline"
               size="icon"
               onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}
-              className="relative overflow-hidden hover:border-emerald-500 transition-colors"
+              className="relative overflow-hidden transition-colors hover:border-emerald-500"
             >
               {theme === 'light' ? (
-                <Moon className="h-5 w-5 text-emerald-600 dark:text-emerald-400 transition-transform hover:scale-110" />
+                <Moon className="w-5 h-5 transition-transform text-emerald-600 dark:text-emerald-400 hover:scale-110" />
               ) : (
-                <Sun className="h-5 w-5 text-emerald-600 dark:text-emerald-400 transition-transform hover:scale-110" />
+                <Sun className="w-5 h-5 transition-transform text-emerald-600 dark:text-emerald-400 hover:scale-110" />
               )}
               <span className="sr-only">Toggle theme</span>
             </Button>
