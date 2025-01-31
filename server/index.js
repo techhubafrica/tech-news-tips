@@ -260,7 +260,7 @@ function isTechArticle(article) {
   return techKeywords.some((keyword) => lowercaseTitle.includes(keyword) || lowercaseDescription.includes(keyword))
 }
 
-// Schedule tasks
+
 cron.schedule("0 */6 * * *", async () => {
   await scrapeTechTips()
   await fetchNewsArticles()
