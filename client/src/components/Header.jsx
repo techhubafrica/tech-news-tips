@@ -19,7 +19,7 @@ const Header = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <nav className="items-center hidden gap-6 mr-4 md:flex">
+            <nav className="items-center gap-2 mr-4 md:flex">
               <a href="/about" className="text-gray-600 transition-colors dark:text-gray-300 hover:text-emerald-600 dark:hover:text-emerald-400">
                 About
               </a>
