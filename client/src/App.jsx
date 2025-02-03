@@ -5,7 +5,7 @@ import Header from './components/Header';
 import NewsList from './components/NewsList';
 import TipsList from './components/TipsList';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './components/ui/tabs';
-import AboutPage from './components/pages/AboutPage';
+import AboutPage from '/components/pages/AboutPage';
 
 function App() {
   // State to manage the active tab (not strictly necessary here, but allows for further functionality)
