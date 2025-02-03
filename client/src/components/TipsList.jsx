@@ -21,7 +21,7 @@ const TipsList = () => {
     setLoading(true);
     try {
       const response = await fetch(
-        `https://tech-news-exf0.onrender.com/api/tips/${category}?page=${page}&limit=${itemsPerPage}`
+        `https://tech-news-tips-erf3.onrender.com/api/tips/${category}?page=${page}&limit=${itemsPerPage}`
       );
       const data = await response.json();
       setTips(data.tips);
